@@ -1,0 +1,34 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  color: rgba(0, 0, 0, 0.582);
+  background-color: rgba(137, 43, 226, 0.377);
+  border: 1px solid rebeccapurple;
+  border-radius: 5px;
+
+  grid-area: Form;
+}
+
+.form label {
+  display: grid;
+  grid-template-columns: 5rem auto;
+  align-self: flex-end;
+  padding-bottom: 10px;
+}
+
+.btn {
+  cursor: pointer;
+  height: 2rem;
+  color:rgb(255, 255, 255);
+ background-color: #ff154f69;
+ border: 0;
+ border-radius:4px;
+ transform: scale(1);
+ transition: 100ms linear;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}

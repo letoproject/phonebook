@@ -1,0 +1,27 @@
+.container {
+  display: grid; 
+  grid-template-columns: 400px 400px; 
+  grid-template-rows: repeat(4, auto); 
+  /* row-gap: 20px;  */
+  grid-template-areas: 
+    "Phonebook Contacts"
+    "Form List"
+    "All List"
+    "Find List"
+    "auto List"; 
+  align-items:center;
+  justify-items: center;
+  justify-content: center;
+}
+
+.div1 {
+  grid-area: Phonebook;
+}
+
+.div3 {
+  grid-area: Contacts;
+}
+
+.div4 {
+  grid-area: All; 
+}

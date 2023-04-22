@@ -1,0 +1,17 @@
+.filter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  color: rgba(0, 0, 0, 0.582);
+  background-color: rgba(137, 43, 226, 0.377);
+  border: 1px solid rebeccapurple;
+  border-radius: 5px;
+
+  grid-area: Find;
+}
+
+.filter input {
+  margin-top: 10px;
+}

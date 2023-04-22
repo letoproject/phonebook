@@ -1,0 +1,36 @@
+.list {
+  padding: 0;
+  color: rgba(0, 0, 0, 0.582);
+  background-color: rgba(137, 43, 226, 0.377);
+  border: 1px solid rebeccapurple;
+  border-radius: 5px;
+  margin: 0;
+
+  grid-area: List;
+}
+
+.item {
+  display: grid;
+  grid: auto-flow 2rem / 13rem 4rem;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.item:nth-of-type(2n + 0) {
+  background-color: rgba(102, 51, 153, 0.267);
+}
+
+.btn {
+  cursor: pointer;
+  height: 100%;
+  color:rgb(255, 255, 255);
+ background-color: #ff154f69;
+ border: 0;
+ border-radius:4px;
+ transform: scale(1);
+ transition: 100ms linear;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
